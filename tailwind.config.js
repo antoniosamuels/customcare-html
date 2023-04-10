@@ -9,6 +9,7 @@ module.exports = {
                 300: "#d7e6ff",
                 600: "#9bb3de",
                 800: "#213c6b",
+                1000: "#081B3D",
               },
               tungston: {
                 10: "#ffffff",

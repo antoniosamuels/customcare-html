@@ -543,9 +543,9 @@ video {
 
 .blue-button:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(234 242 255 / var(--tw-bg-opacity));
+  background-color: rgb(8 27 61 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(33 60 107 / var(--tw-text-opacity));
+  color: rgb(244 251 254 / var(--tw-text-opacity));
 }
 
 .blue-button:focus-visible {

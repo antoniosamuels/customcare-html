@@ -4,7 +4,7 @@
 
 @layer components {
   .blue-button {
-    @apply flex w-full justify-center rounded-md typeB16 bg-navy-800 px-3 py-4 text-blue-75 hover:bg-navy-75 hover:text-navy-800 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600;
+    @apply flex w-full justify-center rounded-md typeB16 bg-navy-800 px-3 py-4 text-blue-75 hover:bg-navy-1000 hover:text-blue-75 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600;
   }
 
   .form-input {
