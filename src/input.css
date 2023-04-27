@@ -16,7 +16,7 @@
   }
 
   .nav-headers {
-    @apply typeB14 text-tungston-600;
+    @apply typeB12 text-tungston-400;
   }
 
   .nav-link {
