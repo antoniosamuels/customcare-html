@@ -613,6 +613,40 @@ video {
   color: rgb(0 71 170 / var(--tw-text-opacity));
 }
 
+.nav-headers {
+  --tw-text-opacity: 1;
+  color: rgb(111 113 117 / var(--tw-text-opacity));
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+}
+
+.nav-link {
+  display: flex;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(33 60 107 / var(--tw-text-opacity));
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+}
+
+.nav-link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(23 133 193 / var(--tw-text-opacity));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -825,6 +859,14 @@ video {
   row-gap: 1.75rem;
 }
 
+.gap-y-2 {
+  row-gap: 0.5rem;
+}
+
+.gap-y-1 {
+  row-gap: 0.25rem;
+}
+
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -941,11 +983,6 @@ video {
   padding-bottom: 3rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1024,11 +1061,6 @@ video {
 .text-indigo-600 {
   --tw-text-opacity: 1;
   color: rgb(79 70 229 / var(--tw-text-opacity));
-}
-
-.text-navy-600 {
-  --tw-text-opacity: 1;
-  color: rgb(155 179 222 / var(--tw-text-opacity));
 }
 
 .text-navy-800 {
@@ -1239,11 +1271,6 @@ body, html {
 
 .hover\:p-3:hover {
   padding: 0.75rem;
-}
-
-.hover\:text-blue-1000:hover {
-  --tw-text-opacity: 1;
-  color: rgb(23 133 193 / var(--tw-text-opacity));
 }
 
 .hover\:text-indigo-600:hover {
